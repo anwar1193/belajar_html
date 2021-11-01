@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <table>
+            <tr>
+                <td style="text-align:right">
+                    <label for="username">Username :</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right">
+                    <label for="password">Password :</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right">
+                    Jenis Kelamin :
+                </td>
+
+                <td>
+                    <input type="radio" id="laki_laki" name="jenis_kelamin"> 
+                    <label for="laki_laki">Laki-Laki</label>
+
+                    <input type="radio" id="perempuan" name="jenis_kelamin"> 
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right">Hobi :</td>
+                <td>
+                    <input type="checkbox" id="olahraga" name="hobi">
+                    <label for="olahraga">Olahraga</label>
+
+                    <input type="checkbox" id="ngoding" name="hobi">
+                    <label for="ngoding">Ngoding</label>
+
+                    <input type="checkbox" id="main_game" name="hobi">
+                    <label for="main_game">Main Game</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right">
+                    Agama :
+                </td>
+
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katholik">Katholik</option>
+                        <option value="Hindhu">Hindhu</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align:right"><label for="alamat">Alamat : </label></td>
+                <td>
+                    <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Kirim</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
